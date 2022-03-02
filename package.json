@@ -2,6 +2,11 @@
   "name": "tov-template",
   "version": "1.0.0",
   "description": "一个 vite + vue3 + ts 开箱即用模板",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "test": "vitest",
@@ -20,9 +25,15 @@
     "preview:open": "vite preview --open",
     "auto:create": "esno scripts/create.ts",
     "auto:remove": "esno scripts/remove.ts",
-    "analysis:build": "windicss-analysis --html dist"
+    "analysis:build": "windicss-analysis --html dist",
+    "prepare": "husky install",
+    "commit": "git-cz"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint-plugin": "link:typescript-eslint\\eslint-plugin",
+    "eslint-plugin-vue": "^8.5.0",
     "vue": "^3.2.31"
   },
   "devDependencies": {
@@ -38,14 +49,24 @@
     "@vueuse/components": "^7.6.2",
     "@vueuse/core": "^7.6.2",
     "c8": "^7.11.0",
+    "commitizen": "^4.2.4",
+    "commitlint-config-cz": "^0.13.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.3.0",
     "element-plus": "^2.0.3",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "esno": "^0.14.1",
+    "husky": "^7.0.4",
     "ityped": "^1.0.3",
+    "lint-staged": "^12.3.4",
     "markdown-it-anchor": "^8.4.1",
     "markdown-it-prism": "^2.2.3",
     "mockjs": "^1.1.0",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.11",
+    "prettier": "^2.5.1",
     "prism-theme-vars": "^0.2.2",
     "typescript": "^4.5.5",
     "unplugin-auto-import": "^0.6.1",
@@ -95,6 +116,12 @@
         "vue-i18n",
         "vue-router"
       ]
+    }
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
     }
   }
 }
