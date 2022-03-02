@@ -1,37 +1,31 @@
 {
-	"i18n-ally.localesPaths": ["locales"],
-	"i18n-ally.keystyle": "nested",
-	"workbench.colorCustomizations": {
-		"activityBar.activeBackground": "#bf7086",
-		"activityBar.activeBorder": "#a2ce91",
-		"activityBar.background": "#bf7086",
-		"activityBar.foreground": "#15202b",
-		"activityBar.inactiveForeground": "#15202b99",
-		"activityBarBadge.background": "#a2ce91",
-		"activityBarBadge.foreground": "#15202b",
-		"sash.hoverBorder": "#bf7086",
-		"statusBar.background": "#af4e69",
-		"statusBar.foreground": "#e7e7e7",
-		"statusBarItem.hoverBackground": "#bf7086",
-		"statusBarItem.remoteBackground": "#af4e69",
-		"statusBarItem.remoteForeground": "#e7e7e7",
-		"titleBar.activeBackground": "#af4e69",
-		"titleBar.activeForeground": "#e7e7e7",
-		"titleBar.inactiveBackground": "#af4e6999",
-		"titleBar.inactiveForeground": "#e7e7e799"
-	},
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true,
-		"eslint.autoFixOnSave" : true,
-	},
-	"peacock.color": "#af4e69",
-	"cSpell.words": [
-		"attributify"
-	],
-	"eslint.enable": true,
-	"eslint.workingDirectories": [
-		{"mode": "auto"}
-	]
+  "i18n-ally.localesPaths": ["locales"],
+  "i18n-ally.keystyle": "nested",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#bf7086",
+    "activityBar.activeBorder": "#a2ce91",
+    "activityBar.background": "#bf7086",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#a2ce91",
+    "activityBarBadge.foreground": "#15202b",
+    "sash.hoverBorder": "#bf7086",
+    "statusBar.background": "#af4e69",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#bf7086",
+    "statusBarItem.remoteBackground": "#af4e69",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#af4e69",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#af4e6999",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "eslint.autoFixOnSave": true
+  },
+  "peacock.color": "#af4e69",
+  "cSpell.words": ["attributify"],
+  "eslint.enable": true,
+  "eslint.workingDirectories": [{ "mode": "auto" }]
 }
-
-
