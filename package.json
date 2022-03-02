@@ -123,5 +123,8 @@
       "browser": true,
       "node": true
     }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
   }
 }
